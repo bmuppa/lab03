@@ -1,6 +1,6 @@
 document.getElementById('kginput').addEventListener('input', function(e) {
     let pounds = e.target.value;
-    document.getElementById('poundsoutput').innerHTML = pounds / 0.0022046;
+    document.getElementById('poundsoutput').innerHTML = pounds / 22046;
     document.getElementById('kilosoutput').innerHTML = pounds;
 });
 document.getElementById('kmsinput').addEventListener('input', function(a) {
